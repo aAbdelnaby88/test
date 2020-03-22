@@ -1,5 +1,8 @@
-pipeline{
-   stage('Build') { 
-    sh 'ls'
-    }
-}
+pipeline {
+    agent any 
+    stages {
+        stage('Build') { 
+        sh 'ls'
+        }
+      }
+  }
