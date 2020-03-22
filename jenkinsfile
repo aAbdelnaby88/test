@@ -1,0 +1,6 @@
+node('ListFiles') {
+    dir('test') {
+        git url: 'https://github.com/aAbdelnaby88/test.git'
+    }
+    sh('ls')
+   }
