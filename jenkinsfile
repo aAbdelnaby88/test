@@ -1,4 +1,4 @@
-node('ListFiles') {
+node('ATLAS && Linux') {
     dir('test') {
         git url: 'https://github.com/aAbdelnaby88/test.git'
     }
